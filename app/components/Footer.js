@@ -18,9 +18,6 @@ function Footer() {
 						Terms
 					</Link>
 					|
-					<Link className="mx-1" to="/test">
-						Test
-					</Link>
 				</p>
 				<p className="m-0">
 					Copyright &copy; 2022{' '}
