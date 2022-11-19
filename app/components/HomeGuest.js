@@ -246,7 +246,13 @@ function HomeGuest() {
 		<Page title="Welcome!" wide={true}>
 			<div className="row align-items-center">
 				<div className="col-lg-7 py-3 py-md-5">
+					<div className="demo">
+						<h1>demo login</h1>
+						<h2>username: demo3</h2>
+						<h2>password: demo3@gmail.com</h2>
+					</div>
 					<h1 className="display-3">Remember Writing?</h1>
+
 					<p className="lead text-muted">
 						Are you sick of short tweets and impersonal &ldquo;shared&rdquo;
 						posts that are reminiscent of the late 90&rsquo;s email forwards? We
@@ -343,7 +349,7 @@ function HomeGuest() {
 							type="submit"
 							className="py-3 mt-4 btn btn-lg btn-success btn-block"
 						>
-							Sign up for ComplexApp
+							Sign up
 						</button>
 					</form>
 				</div>
